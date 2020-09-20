@@ -1,0 +1,50 @@
+---
+layout: default
+title: The Bicycle Repair Shop
+description:
+<!-- featured_image: /images/mtb.jpg -->
+---
+
+<section class="intro">
+
+	<div class="wrap">
+
+		<h1></h1>
+		<p>
+Based in Macclesfield, Cheshire, The Bicycle Repair Shop Ltd provides repair and service of all styles of bikes. Customers include leisure, road, track, MTB’s and family cyclists. </br></br>
+Run by David, a lifelong cyclist involving track, road racing and mountain biking, he has developed a passion for bicycle maintenance with experience gained over many years from working on his own bikes as well as attending City & Guilds accredited bicycle maintenance training courses.
+</p>
+	</div>
+
+</section>
+
+<section class="portfolio">
+
+	<div class="content-wrap portfolio-wrap">
+
+		{% for project in site.projects reversed %}
+
+		<div class="portfolio-item">
+
+			<a class="portfolio-item__link" href="{{ project.url | relative_url }}">
+
+				<div class="portfolio-item__image">
+					<img src="{{ project.featured_image | relative_url }}" alt="{{ project.title }}">
+				</div>
+
+				<div class="portfolio-item__content">
+					<div class="portfolio-item__info">
+						<h2 class="portfolio-item__title">{{ project.title }}</h2>
+						<p class="portfolio-item__subtitle">{{ project.subtitle }}</p>
+					</div>
+				</div>
+
+			</a>
+
+		</div>
+
+		{% endfor %}
+
+	</div>
+
+</section>

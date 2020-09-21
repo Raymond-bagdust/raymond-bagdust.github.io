@@ -64,15 +64,15 @@ social_settings:
 
 color_settings:
   background_color: '#ffffff'
-  background_alt_color: '#f4f5f6'
+  background_alt_color: '#cc3366'
   text_dark_color: '#2A2F36'
   text_medium_color: '#6C7A89'
   text_light_color: '#ABB7B7'
   accent_color: '#cc3366'
   border_color: '#dddddd'
-  overlay_background_color: '#F2784B'
+  overlay_background_color: '#cc3366'
   overlay_text_color: '#ffffff'
-  overlay_accent_color: '#2A2F36'
+  overlay_accent_color: '#cc3366'
   error_color: '#D64541'
 
   # color_settings:
@@ -161,9 +161,9 @@ font_settings:
     letter_spacing: 0
     line_height: 1.6
   p:
-    small_size: 20
+    small_size: 18
     medium_size: 20
-    large_size: 19
+    large_size: 20
     weight: 400
     letter_spacing: 0
     line_height: 1.6

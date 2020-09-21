@@ -10,7 +10,7 @@ subtitle:
 * Bike builds, refurbishment & upgrades
 * Registered for Government Fix Your Bike voucher scheme
 
-For any particular bicycle maintenance requirements, please call to discuss.
+<!-- For any particular bicycle maintenance requirements, please call to discuss.
 <style>
 table{
     border-collapse: collapse;
@@ -28,6 +28,11 @@ td{
 }
 </style>
 
-| <img src="images/mtb.jpg" alt="Mountain bike repair" width="500"/>     | <img src="images/planx.jpeg" alt="Road Bike repair" width="500"/>      | <img src="images/wheely.jpeg" alt="Wheel repair" width="500"/>    |
+| <img src="images/mtb.jpg" alt="Mountain bike repair" width="500"/>     | <img src="images/planx.jpeg" alt="Road Bike repair" width="500"/>      | <img src="images/wheely.jpeg" alt="Wheel repair" width="500"/>    | -->
 
 
+<div class="gallery" data-columns="3">
+	<img src="images/bike.jpeg">
+	<img src="/images/wheely.jpeg">
+	<img src="/images/peugeot.jpeg">
+</div>

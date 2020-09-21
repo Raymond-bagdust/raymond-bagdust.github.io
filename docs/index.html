@@ -19,38 +19,9 @@ Run by David, a lifelong cyclist involving track, road racing and mountain bikin
 </section>
 
 <section class="portfolio">
-
-	<div class="content-wrap portfolio-wrap">
-
-		{% for project in site.projects reversed %}
-
-		<div class="portfolio-item">
-
-			<a class="portfolio-item__link">
-
-<!-- 			<a class="portfolio-item__link" href="{{ project.url | relative_url }}"> -->
-
-<!-- 				<div class="portfolio-item__image">
-					<img src="{{ project.featured_image | relative_url }}" alt="{{ project.title }}">
-				</div> -->
-
-				<div class="portfolio-item__image">
-					<img src="{{ project.featured_image }}" alt="{{ project.title }}">
-				</div>
-
-<!-- 				<div class="portfolio-item__content">
-					<div class="portfolio-item__info">
-						<h2 class="portfolio-item__title">{{ project.title }}</h2>
-						<p class="portfolio-item__subtitle">{{ project.subtitle }}</p>
-					</div>
-				</div> -->
-
-			</a>
-
-		</div>
-
-		{% endfor %}
-
-	</div>
-
+<div class="gallery" data-columns="3">
+	<img src="images/mtb.jpg">
+	<img src="/images/planx.jpeg">
+	<img src="/images/spans.jpeg">
+</div>
 </section>
